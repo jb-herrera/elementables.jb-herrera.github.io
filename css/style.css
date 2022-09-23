@@ -1,0 +1,17 @@
+#topbar ul{
+  background-color: grey;
+  padding: 20px 30px;
+}
+#topbar li{
+  display: inline;
+  padding: 20px 30px;
+}
+#topbar h1{
+  display: inline;
+}
+#topbar li a{
+  text-decoration: none;
+}
+#topbar li a:hover{
+  background-color: red;
+}
