@@ -7,34 +7,45 @@
   <meta name="author" content="James Bryant L. Herrera">
   <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="revised" content="23-09-2022">
-  <link rel="icon" href="icon.png" type="image/gif">
+  <link rel="icon" href="../img/logo.png" type="image/gif">
   <link rel="stylesheet" href="../css/style.css" type="text/css">
 </head>
 
 <body>
   <div class=>
     <div class="topbar">
-      <h1>ElemenTables</h1>
+      <img src="../img/expanded_logo.png">
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="nav.html">Elements</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
       <div class="search">
-        <img src="../img/search.png">
-        <h3>Search</h3>
+        <input type="text" placeholder="Search...">
+        <button type="submit"><img src="../img/search.png"></button>
       </div>
     </div>
-    <div class="content-container">
+    <div class="content-top">
       <div>
         <table class="content-element-box">
           <tr>
-            <th id="element-symbol">H<br><br>Hydrogen</th>
+            <th id="element-box" rowspan="4">1<br><span id="element-symbol">H</span><br><br>Hydrogen<br>Non-metal</th>
             <td id="element-short-desc">Hydrogen (H)</td>
           </tr>
         </table>
       </div>
-      <h1>Hydrogen</h1>
+      <br>
+      <table id="content-table-1">
+        <tr>
+          <td>Discovered by</td>
+          <td>Henry Cavendish</td>
+        </tr>
+        <tr>
+          <td>Date Discovered</td>
+          <td>1766</td>
+        </tr>
+      </table>
+      <p>It is a colorless, odorless gas in a normal environment.</p>
     </div>
   </div>
 </body>
