@@ -84,9 +84,13 @@ body{
 .content-top{
   margin-top: 100px;
   margin-left: 100px;
+  margin-right: 100px;
 }
 #element-short-desc{
   padding: 20px;
+  font-size: 16px;
+}
+#short-desc-name{
   font-size: 24px;
 }
 .content-element-box h1{
@@ -102,13 +106,21 @@ body{
 #element-symbol{
   font-size: 40px;
 }
-#content-table-1{
+#content-tables{
   border: 1px solid grey;
-  padding: 10px;
+  padding: 0px;
+  margin: auto;
+  border-collapse: collapse;
+  width: 50%;
 }
-#content-table-1 td{
-  border: 1px solid grey;
+#content-tables td{
   padding: 10px;
+  margin: auto;
+  border: 1px solid grey;
+}
+#content-tables caption{
+  font-size: 20px;
+  padding: 5px;
 }
 
 @keyframes transition-topbar{
@@ -144,4 +156,30 @@ body{
   margin: auto;
   padding: 125px;
   display: block;
+}
+
+#content-text{
+  margin: auto;
+  padding: 10px;
+}
+
+#content-table-plain{
+  border-collapse: collapse;
+  margin: auto;
+}
+#content-table-plain img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+#content-table-plain p{
+  padding: 10px;
+}
+#content-table-plain td:first-child{
+  width: 70%;
+}
+#content-atom{
+  border: 1px solid grey;
+  padding: 5px;
 }
