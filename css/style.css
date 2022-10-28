@@ -10,7 +10,7 @@ body{
 
 .topbar{
   position: fixed;
-  background-color: white;
+  background-color: #d6eeff;
   top: 0px;
   left: 0px;
   padding: 10px;
@@ -20,7 +20,7 @@ body{
   display: inline-block;
   margin: auto;
   padding: 20px 60px;
-  background-color: #a0a0a0;
+  background-color: #d0d0d0;
   border-radius: 25px;
   margin-right: 200px;
 }
