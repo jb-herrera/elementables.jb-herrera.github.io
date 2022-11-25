@@ -8,7 +8,7 @@ body{
   background-repeat: no-repeat;
 }
 
-.topbar{
+nav{
   position: fixed;
   background-color: #d6eeff;
   top: 0px;
@@ -16,7 +16,7 @@ body{
   padding: 10px;
   width: 100%;
 }
-.topbar ul{
+nav ul{
   display: inline-block;
   margin: auto;
   padding: 20px 60px;
@@ -24,7 +24,7 @@ body{
   border-radius: 25px;
   margin-right: 200px;
 }
-.topbar img{
+nav img{
   display: inline;
   padding: auto;
   color: blue;
@@ -32,21 +32,20 @@ body{
   height: 45px;
   width: 125px;
 }
-.topbar li{
+nav li{
   display: inline;
   padding: 20px 30px;
 }
 
-.topbar li a{
+nav li a{
   text-decoration: none;
   color: black;
 }
-.topbar li a:hover{
+nav li a:hover{
   animation-name: transition-topbar;
   animation-duration: 0.25s;
   animation-fill-mode: both;
 }
-
 
 .table-nav{
   margin: auto;
@@ -133,21 +132,21 @@ body{
   to {border-style: inset;}
 }
 
-.topbar .search{
+nav .search{
   display: inline;
   padding: 10px 50px 10px 30px;
   float: right;
 }
-.topbar .search button img{
+nav .search button img{
   height: 10px;
   width: 10px;
   margin: -20px 0px 0px 0px;
 }
-.topbar .search button{
+nav .search button{
   display: inline;
   padding: 10px;
 }
-.topbar .search input{
+nav .search input{
   border: 1px solid black;
   padding: 10px;
 }
@@ -207,6 +206,29 @@ body{
 @keyframes return-top{
   from {opacity: 20%;}
   to {opacity: 80%;}
+}
+
+#about h1{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#about h2{
+  font-weight: lighter;
+  text-align: center;
+}
+
+#about iframe{
+  margin: 0% 18%;
+}
+
+#about h3{
+  font-weight: lighter;
+  text-align: center;
+  padding: 2px;
+  margin: 0px;
+  font-size: 10px;
 }
 
 
