@@ -134,7 +134,7 @@ nav li a:hover{
 
 nav .search{
   display: inline;
-  padding: 10px 50px 10px 30px;
+  padding: 10px 50px 10px 10px;
   float: right;
 }
 nav .search button img{
@@ -219,11 +219,11 @@ nav .search input{
   text-align: center;
 }
 
-#about iframe{
-  margin: 0% 18%;
+#about #vid{
+  text-align: center;
 }
 
-#about h3{
+#about #vid-source{
   font-weight: lighter;
   text-align: center;
   padding: 2px;
@@ -231,4 +231,72 @@ nav .search input{
   font-size: 10px;
 }
 
+#sprite-fb, #sprite-yt, #sprite-tw, #sprite-wb{
+  width: 64px;
+  height: 64px;
+  margin: 5px;
+}
+#sprite-fb {
+  background: url('/img/sprite.png') no-repeat -19px -19px;
+	width: 33px;
+	height: 33px;
+}
+#sprite-yt {
+  background: url('/img/sprite.png') no-repeat -118px -19px;
+	width: 33px;
+	height: 33px;
+}
+#sprite-tw {
+  background: url('/img/sprite.png') no-repeat -68px -19px;
+	width: 33px;
+	height: 32px;
+}
+#sprite-wb {
+  background: url('/img/sprite.png') no-repeat -167px -20px;
+	width: 33px;
+	height: 33px;
+}
+footer{
+  margin-left: 20px;
+}
+footer a, footer div{
+  display: inline-block;
+}
 
+footer h4{
+  margin-bottom: 5px;
+}
+
+#nav-non-metal{
+  background-color:#ffff77;
+}
+#nav-noble-gas{
+  background-color: lightblue;
+}
+#nav-alkali{
+  background-color: lightgreen;
+}
+#nav-rare-alkali{
+  background-color: lightsalmon;
+}
+#nav-metalloid{
+  background-color: #cc7744;
+}
+#nav-transition-metal{
+  background-color: orange;
+}
+#nav-posttransition-metal{
+  background-color: #b573b5;
+}
+#nav-lanthanides{
+  background-color: lightpink;
+}
+#nav-actinides{
+  background-color: #ff6b6b;
+}
+#table-nav td *{
+  background-color: black;
+}
+#nav-title{
+ text-align: center;
+}
